@@ -11,7 +11,7 @@
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/RiseOfTheWanderer.git
+   git clone https://github.com/Outscal-Projects/Rise_Of_The_Wanderer.git
    ```
 2. Navigate to the project directory:
    ```sh
@@ -19,7 +19,7 @@
    ```
 3. Compile the game:
    ```sh
-   g++ -std=c++17 -Iinclude src/Character.cpp src/Player.cpp src/Enemy.cpp src/Game.cpp src/main.cpp -o build/RiseOfTheWanderer
+   g++ -std=c++17 -Iinclude src/Utility.cpp src/Character.cpp src/Player.cpp src/Enemy.cpp src/Level.cpp src/Game.cpp src/main.cpp -o build/RiseOfTheWanderer
    ```
 4. Run the game:
    ```sh
@@ -32,5 +32,4 @@
 3. Choose your actions in combat:
    - **Attack:** Strike the enemy.
    - **Heal:** Restore some HP.
-   - **Special Abilities:** Unlocked as you progress.
 4. Defeat all enemies, collect legendary items, and face the final boss.
